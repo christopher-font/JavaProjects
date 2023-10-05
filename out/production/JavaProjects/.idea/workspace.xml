@@ -4,6 +4,7 @@
     <list default="true" id="2be49d02-40c4-4185-90c2-ec3aa4536afb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomFactAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/randomFactAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GuessingGame">
+    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessingGame" />
+      <module name="JavaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="randomFactAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="randomFactAPI" />
       <module name="JavaProjects" />
@@ -42,6 +50,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessingGame" />
         <item itemvalue="Application.randomFactAPI" />
       </list>
     </recent_temporary>
