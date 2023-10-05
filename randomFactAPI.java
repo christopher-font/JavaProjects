@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class randomFactAPI {
@@ -18,10 +17,8 @@ public class randomFactAPI {
 
             System.out.println(htmlSplit[7]);
 
-        } catch(MalformedURLException e) {
-            System.out.println(e);
-        } catch (Exception e){
-            System.out.println(e);
+        }  catch (Exception e){
+            System.out.println(e.getLocalizedMessage());
         }
     }
 }
