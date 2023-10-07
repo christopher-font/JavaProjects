@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2be49d02-40c4-4185-90c2-ec3aa4536afb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GuessingGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2be49d02-40c4-4185-90c2-ec3aa4536afb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +32,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GuessingGame">
+  <component name="RunManager" selected="Application.SumOfPositiveNumbers">
     <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessingGame" />
+      <module name="JavaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfPositiveNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfPositiveNumbers" />
       <module name="JavaProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,8 +56,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessingGame" />
+        <item itemvalue="Application.SumOfPositiveNumbers" />
         <item itemvalue="Application.randomFactAPI" />
+        <item itemvalue="Application.GuessingGame" />
       </list>
     </recent_temporary>
   </component>
