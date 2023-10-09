@@ -46,25 +46,43 @@ public class Calculator {
 
         while (true) {
             op = 'a';
+            num1 = Integer.MAX_VALUE;
+            num2 = Integer.MAX_VALUE;
+            String exit = "";
 
-            System.out.print("Please enter an Integer: ");
-            String exit = in.nextLine();
+            while (num1 == Integer.MAX_VALUE) {
+                System.out.print("Please enter an Integer: ");
+                exit = in.nextLine();
+                if (isExit(exit)) break;
+                try {
+                    num1 = Integer.parseInt(exit);
+                } catch (NumberFormatException e){
+                    num1 = Integer.MAX_VALUE;
+                }
+            }
             if (isExit(exit)) break;
-            try {
-                num1 = Integer.parseInt(exit);
-            } catch (NumberFormatException e){}
 
             while (!isInOPERATORS(op)) {
                 try {
                     System.out.println("Please enter an Operator: ");
-                    op = in.nextLine().charAt(0);
+                    exit = in.nextLine();
+                    if (isExit(exit)) break;
+                    op = exit.charAt(0);
                 } catch (StringIndexOutOfBoundsException e) {}
             }
-
-            System.out.print("Please enter another Integer: ");
-            exit = in.nextLine();
             if (isExit(exit)) break;
-            num2 = Integer.parseInt(exit);
+
+            while (num2 == Integer.MAX_VALUE) {
+                System.out.print("Please enter another Integer: ");
+                exit = in.nextLine();
+                if (isExit(exit)) break;
+                try {
+                    num2 = Integer.parseInt(exit);
+                } catch (NumberFormatException e){
+                    num2 = Integer.MAX_VALUE;
+                }
+            }
+            if (isExit(exit)) break;
 
             System.out.printf("%d %c %d = %d\n", num1, op, num2, evaluateOPERATOR(num1, num2, op));
 
