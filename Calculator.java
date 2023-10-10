@@ -2,6 +2,17 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Calculator {
+
+    public static boolean isExit(String str) {
+        final String[] EXITLIST = {"exit", "quit"};
+
+        for (int i = 0; i < EXITLIST.length; i++)
+            if (str.toLowerCase(Locale.ROOT).equals(EXITLIST[i])) return true;
+        return false;
+    }
+
+    public static final char[] OPERATORS = {'+', '-', '*', '/', '%', '^'};
+
     public static double evaluateOPERATOR(double num1, double num2, char op) {
         double result = Double.MAX_VALUE;
 
@@ -26,17 +37,6 @@ public class Calculator {
 
         return result;
     }
-
-
-    public static boolean isExit(String str) {
-        final String[] EXITLIST = {"exit", "quit"};
-
-        for (int i = 0; i < EXITLIST.length; i++)
-            if (str.toLowerCase(Locale.ROOT).equals(EXITLIST[i])) return true;
-        return false;
-    }
-
-    public static final char[] OPERATORS = {'+', '-', '*', '/', '%', '^'};
 
     public static boolean isInOPERATORS(char op) {
         for (int i = 0; i < OPERATORS.length; i++)
