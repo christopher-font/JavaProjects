@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class RandomizedMathProblems {
 
     public static final String ANSI_RED_BACKGROUND = "\u001B[41m";
+    public static final String ANSI_GREEN_BACKGROUND = "\u001B[42m";
     public static final String ANSI_RESET = "\u001B[0m";
 
     public static boolean isExit(String str) {
@@ -15,7 +16,7 @@ public class RandomizedMathProblems {
         return false;
     }
 
-    public static final char[] OPERATORS = {'+', '-', '*', '/', '%', '^'};
+    public static final char[] OPERATORS = {'+', '-', '*', '/', '%'};
 
     public static int evaluateOPERATOR(int num1, int num2, char op) {
         int result = Integer.MAX_VALUE;
@@ -30,8 +31,6 @@ public class RandomizedMathProblems {
             result = num1 / num2;
         } else if (op == OPERATORS[4]) {
             result = num1 % num2;
-        } else if (op == OPERATORS[5]){
-            result = (int) Math.round(Math.pow(num1, num2));
         } else {
             throw new RuntimeException("Error computing result!");
         }
@@ -76,9 +75,9 @@ public class RandomizedMathProblems {
             int correctAnswer = evaluateOPERATOR(num1, num2, OPERATORS[opChooser]);
 
             if (ans == correctAnswer){
-                System.out.printf("Correct!\n");
+                System.out.printf("%sCorrect!%s\n", ANSI_GREEN_BACKGROUND, ANSI_RESET);
             } else {
-                System.out.printf("%sIncorrect!\nThe answer is %d.%s\n",ANSI_RED_BACKGROUND, correctAnswer, ANSI_RESET);
+                System.out.printf("%sIncorrect!%s\nThe answer is %d.\n",ANSI_RED_BACKGROUND, ANSI_RESET, correctAnswer);
             }
 
         }
