@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be49d02-40c4-4185-90c2-ec3aa4536afb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RandomizedMathProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProjects/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProjects/Calculator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.RandomizedMathProblems">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="JavaProjects" />
@@ -45,8 +48,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GuessingGame" />
+    <configuration name="RandomizedMathProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomizedMathProblems" />
       <module name="JavaProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomizedMathProblems" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.randomFactAPI" />
         <item itemvalue="Application.SimpleJavaPane" />
         <item itemvalue="Application.SumOfPositiveNumbers" />
-        <item itemvalue="Application.GuessingGame" />
       </list>
     </recent_temporary>
   </component>
@@ -104,5 +107,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaProjects$RandomizedMathProblems.ic" NAME="RandomizedMathProblems Coverage Results" MODIFIED="1696902255059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
