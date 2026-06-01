@@ -7,7 +7,8 @@ public class Calculator {
         final String[] EXITLIST = {"exit", "quit"};
 
         for (int i = 0; i < EXITLIST.length; i++)
-            if (str.toLowerCase(Locale.ROOT).equals(EXITLIST[i])) return true;
+            if (str.toLowerCase(Locale.ROOT).equals(EXITLIST[i])) 
+                return true;
         return false;
     }
 
@@ -32,7 +33,6 @@ public class Calculator {
             throw new RuntimeException("Error computing result!");
         }
 
-
         if (result == Double.MAX_VALUE) throw new RuntimeException("INVALID OPERATOR!");
 
         return result;
@@ -40,7 +40,8 @@ public class Calculator {
 
     public static boolean isInOPERATORS(char op) {
         for (int i = 0; i < OPERATORS.length; i++)
-            if (op == OPERATORS[i]) return true;
+            if (op == OPERATORS[i]) 
+                return true;
         return false;
     }
 
