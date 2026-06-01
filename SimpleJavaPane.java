@@ -7,7 +7,5 @@ public class SimpleJavaPane {
         frame.setSize(350,350);
         JOptionPane.showMessageDialog(frame, "This is an error message", "Error", JOptionPane.ERROR_MESSAGE);
         frame.setVisible(true);
-
-
     }
 }
